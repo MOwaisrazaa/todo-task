@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background: rgb(55, 130, 168);
+    background: radial-gradient(circle, rgba(55, 130, 168, 1) 0%, rgba(97, 12, 145, 1) 100%);
+}
+
+.main-container {
+    border: 1px solid #fff;
+    padding: 20px;
+    width: 60%;
+    margin: 20px auto;
+
+}
+
+.input-container {
+    background-color: #ffffff;
+    min-height: 45px;
+    width: 85%;
+    margin: 40px auto;
+    border-radius: 10px;
+    padding: 30px 50px;
+    box-shadow: 10px 2px 20px 5px rgb(32, 32, 32);
+
+}
+
+input {
+    height: 45px;
+    width: 72%;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    /* margin-right: 5px; */
+}
+
+.add-btn,
+.clear-btn {
+    background: rgb(55, 130, 168);
+    background: radial-gradient(circle, rgba(55, 130, 168, 1) 0%, rgba(97, 12, 145, 1) 100%);
+    color: #fff;
+    height: 46px;
+    width: 12%;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.add-btn:hover,
+.clear-btn:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.list-style {
+    background-color: #ffffff;
+    min-height: 35px;
+    width: 85%;
+    margin: 20px auto;
+    border-radius: 50px;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 5px 2px 20px 5px rgb(32, 32, 32);
+    text-transform: capitalize;
+    list-style-position: inside; 
+
+
+}
+
+.dlt-btn,
+.edit-btn {
+    background-color: #fff;
+    color: rgb(7, 27, 117);
+    color: radial-gradient(circle, rgba(55, 130, 168, 1) 0%, rgba(97, 12, 145, 1) 100%);
+    border: none;
+    font-size: 22px;
+    display: inline-flex;
+    float: right;
+    width: 11%;
+    cursor: pointer;
+    /* float: right; */
+}
+.dlt-btn:hover,
+.edit-btn:hover{
+    color: #000;
+    transition: 0.5s;
+
+}

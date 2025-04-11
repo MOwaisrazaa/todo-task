@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-task</title>
+    <link rel="stylesheet" href="style.css">
+
+     <!-- font awesome Cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+<div class="main-container">
+
+    <div class="input-container">
+        <input id="input" type="text" placeholder="Enter Todo...">
+        <button class="add-btn" onclick="addTodo()">Add</button>
+        <button class="clear-btn" onclick="clearTodo()">Clear</button>
+
+    </div>
+
+    <div id="todo-container">
+        <ol id="todo-list">
+        
+        </ol>
+    </div>
+</div>
+    
+    
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
