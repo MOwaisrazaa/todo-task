@@ -97,3 +97,9 @@ input {
     transition: 0.5s;
 
 }
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 2.8rem;
+}
